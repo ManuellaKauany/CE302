@@ -7,5 +7,12 @@ Aula no laboratório
 # Aula dia 18/09/24
 ## Básico do RStudio
 
-# Ajuda (?)
-?mean
+# Ajuda
+help()
+?()
+??()
+help.search()
+apropos()
+vignette()
+vignette( package = "")
+

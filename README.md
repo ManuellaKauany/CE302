@@ -15,4 +15,3 @@ help.search()
 apropos()
 vignette()
 vignette( package = "")
-

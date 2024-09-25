@@ -204,7 +204,8 @@ as.datas()
 
 
 
-# Métodos são funções genéricas que atuam conforme a classe do objeto. Para saber quais métodos estão disponíveis para uma classe, utilize a função methods(class = "class").
+# Métodos
+####são funções genéricas que atuam conforme a classe do objeto. Para saber quais métodos estão disponíveis para uma classe, utilize a função methods(class = "class").
 methods(class = "numeric")
 methods(class = "character")
 
@@ -375,4 +376,35 @@ rev(vetor3)
 ## Retorna os elementos únicos de um vetor ou matriz.
 unique(vetor3)
 
+
+
+# Graficos
+col= cor que deseja, x = o que voce quer no eixo x, y= o que voce quer no eixo y
+type = "b", cria um grafico de linhas e pontos
+
+## Cria um gráfico de dispersão ou linhas.
+plot()
+
+### exemplo
+
+vetor4 = c(1:100)
+vetor5 = sqrt(vetor4)
+plot(x = vetor4, 
+     y = vetor5, 
+     las = 1, 
+     pch = 16)
+
+## Cria um histograma
+hist()
+
+### exemplo
+hist(vetor4, 
+     las = 1)
+
+## Cria um grafico de linhas e pontos
+type = "b"
+
+x <- c(1, 2, 3, 4, 5)
+y <- c(2, 4, 6, 8, 10)
+plot(x, y, type = "b")  # Cria um gráfico de linhas e pontos
 

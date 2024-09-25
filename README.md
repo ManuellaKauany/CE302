@@ -406,5 +406,57 @@ type = "b"
 
 x <- c(1, 2, 3, 4, 5)
 y <- c(2, 4, 6, 8, 10)
-plot(x, y, type = "b")  # Cria um gráfico de linhas e pontos
+plot(x, y, type = "b")  
 
+
+# Funções de Manipulação de Texto
+
+## Junta várias strings em uma única string
+paste()
+
+nomes = c("Maria", "Ana", "Rafaela")
+paste(nomes[1], "e", nomes[2], "são minhas amigas.")
+paste(nomes[1], nomes[2], nomes[3], sep = "|")
+paste(nomes, collapse = " ")
+
+## Converte uma string em letras maiúsculas
+toupper()
+
+toupper(nomes)
+
+## Converte uma string em letras minúsculas
+tolower()
+
+tolower(nomes)
+
+## Extrai uma subcadeia de caracteres de uma string
+substr(x = [], start = ,stop = )
+
+substr(x = nomes[1], start = 1,stop = 3)
+
+## Substitui padrões em uma string por outros valores.
+gsub(pattern = "G", 
+     replacement = "R",
+     x = "Gato")
+
+# Conjunto de dados
+
+### data(): 
+Lista os conjuntos de dados integrados disponíveis no R. Isso permite que você veja quais conjuntos estão disponíveis para importação.
+###head():
+Exibe as primeiras linhas de um dataframe, permitindo uma visualização rápida dos dados.
+###tail():
+Exibe as últimas linhas de um dataframe, especialmente útil para conjuntos de dados com muitas observações.
+###summary():
+Fornece um resumo estatístico dos dados em um dataframe, incluindo medidas como média, mediana, mínimo, máximo e quartis
+
+
+# Indentificar
+
+## Achar NA (Valores Ausentes)
+is.na()
+## Remover NA
+na.exclude()
+na.omit()
+## Achar NAN (Não é numero)
+is.nan()

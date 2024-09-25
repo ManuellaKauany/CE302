@@ -559,4 +559,4 @@ A_sem_primeiras_duas_linhas
 ## Remove a primeira linha e segunda coluna
 A[-1, -2]
 A_sem_linha_coluna <- A[-1, -2]  
-A_sem_linha_coluna
+A_sem_linha_coluna 

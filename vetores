@@ -24,21 +24,4 @@ variavel[]
 ## vetores de mesmo tamanho
 ### igual as operações acima
 
-# Classe
-## numerico,letras, logicas
 
-### verificar classe
-is.numeric()
-is.character()
-is.logical()
-is.integer()
-is.factor()
-### descobrir classe
-class()
-### transformar classe
-#### caracter
-as.character()
-#### numeros
-as.numeric()
-#### datas
-as.datas()

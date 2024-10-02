@@ -2,7 +2,7 @@
 Aula no laboratório
 
 # Aula dia 11/09/24
-##Criar conta e sincronizar o GitHub
+Criar conta e sincronizar o GitHub
 
 # Aula dia 18/09/24
 ## Básico do RStudio
@@ -11,11 +11,17 @@ Aula no laboratório
 # Ajuda
 
 ?
+
 help()
+
 ??
+
 help.search()
+
 apropos()
+
 vignette()
+
 vignette( package = )
 
 
@@ -34,7 +40,7 @@ rm()
 <-
 
 # Palavras reservadas
-##Exemplos de palavras reservadas no R incluem if, else, for, while, function, TRUE, FALSE, NULL, break, next, entre outras.
+Exemplos de palavras reservadas no R incluem if, else, for, while, function, TRUE, FALSE, NULL, break, next, entre outras.
 
 
 # Maximo
@@ -84,7 +90,7 @@ quantile(y)
 table(y)
 
 # Operadores Relacionais
-##são usados para comparar valores e expressões. Eles retornam um valor lógico (TRUE ou FALSE) com base na comparação
+são usados para comparar valores e expressões. Eles retornam um valor lógico (TRUE ou FALSE) com base na comparação
 
 ## igual
 igual_a <- a == b
@@ -205,7 +211,7 @@ as.datas()
 
 
 # Métodos
-####são funções genéricas que atuam conforme a classe do objeto. Para saber quais métodos estão disponíveis para uma classe, utilize a função methods(class = "class").
+são funções genéricas que atuam conforme a classe do objeto. Para saber quais métodos estão disponíveis para uma classe, utilize a função methods(class = "class").
 methods(class = "numeric")
 methods(class = "character")
 
@@ -272,7 +278,7 @@ vetores_menor_ou_igual_a <- vetor1 <= vetor2
 vetores_menor_ou_igual_a
 
 ## Seleção Posicional
-#### é uma forma de acessar elementos de um vetor com base em sua posição
+é uma forma de acessar elementos de um vetor com base em sua posição
 
 alturas <- c("João" = 1.82, 
 "Bianca" = 1.68,
@@ -293,7 +299,7 @@ alturas[-2]
 
 
 ## Seleção Condicional
-#### é uma forma de acessar elementos de um vetor com base em uma condição lógica
+ é uma forma de acessar elementos de um vetor com base em uma condição lógica
 
 ## Elementos maiores que ...
 alturas[alturas > 1.70]
@@ -305,7 +311,7 @@ alturas[alturas == 1.70]
 alturas[alturas != 1.70]
 
 ## Seleção por Nome
-#### acessar os elementos por nome em vez de índice
+ acessar os elementos por nome em vez de índice
 
 ### Acessar elemento
 alturas["João"]
@@ -315,7 +321,7 @@ alturas[c("João", "Ana")]
 
 
 # Modificar
-#### é possivel modificar vetores quando necessário
+ é possivel modificar vetores quando necessário
 
 ## Modificar elemento por posição
 alturas[2]
@@ -338,7 +344,7 @@ alturas
 
 
 # Adicionar
-#### adicionar um novo elemento a um vetor
+ adicionar um novo elemento a um vetor
 
 ## Adiciona a altura, value = novo elemento
 append(alturas, 
@@ -478,7 +484,7 @@ matriz_coluna= cbind(vetor_a,
                      vetor_b)
 matriz_coluna
 
-#### é uma matriz?
+### é uma matriz?
 is.matrix()
 
 # Criar Matrizes 2

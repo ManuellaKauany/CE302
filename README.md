@@ -11,11 +11,17 @@ Criar conta e sincronizar o GitHub
 # Ajuda
 
 ?
+
 help()
+
 ??
+
 help.search()
+
 apropos()
+
 vignette()
+
 vignette( package = )
 
 

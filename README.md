@@ -615,4 +615,3 @@ endereco <- list(
 
 minha_lista$endereco <- endereco
 minha_lista
-

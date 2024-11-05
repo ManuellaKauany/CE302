@@ -1,5 +1,5 @@
 # Arrays
-ão estruturas multidimensionais úteis para armazenar e manipular dados em várias dimensões, são usados em diversas áreas, como processamento de imagens, simulações numéricas, análise de dados multidimensionais e modelagem estatística. Eles são essenciais para lidar com dados que possuem mais de duas dimensões, onde as matrizes não são suficientes para representar a complexidade dos dados
+São estruturas multidimensionais úteis para armazenar e manipular dados em várias dimensões, são usados em diversas áreas, como processamento de imagens, simulações numéricas, análise de dados multidimensionais e modelagem estatística. Eles são essenciais para lidar com dados que possuem mais de duas dimensões, onde as matrizes não são suficientes para representar a complexidade dos dados
 
 ### Criando um array 2x3x4
 array(1:24, dim = c(2, 3, 4))
